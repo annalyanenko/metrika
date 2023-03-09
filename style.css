@@ -4,9 +4,6 @@ body {
     background: #F5F5F5;
 }
 
-* {
-    box-sizing: border-box;
-}
 .container {
     margin: 0px auto;
     padding: 150px 125px 150px 125px;
@@ -165,49 +162,6 @@ p.description {
    margin-bottom: 15px;
 }
 
-.service__1 {
-    margin-bottom: 60px;
-    height: 41px;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
-.service_image2 {
-    margin-bottom: 15px;
- }
-
-.service__2 {
-    margin-bottom: 60px;
-    height: 41px;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
-.service_image3 {
-    margin-bottom: 15px;
- }
-
-.service__3 {
-    margin-bottom: 60px;
-    height: 41px;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
-
-.service_image4 {
-    margin-bottom: 15px;
- }
-
-.service__4 {
-    margin-bottom: 150px;
-    height: 41px;
-    font-size: 30px;
-    line-height: 41px;
-    letter-spacing: -0.03em;
-}
 
 
 
