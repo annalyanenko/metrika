@@ -106,7 +106,8 @@ p.description {
 .project__information {
     font-size: 20px;
     line-height: 20px;
-    letter-spacing: -0.03em;    
+    letter-spacing: -0.03em;   
+    text-decoration: none; 
     color: #AD1818;
 }
 
