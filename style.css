@@ -272,12 +272,14 @@ nav {
 }
 
 .number_link:hover {
+    text-decoration: none;
     border-bottom: 1px solid #000000;
     opacity: 0.5;
 }
 
 .email_link {
     text-decoration: none;
+    border-bottom: 1px solid #000000;
     color: #121212;
 }
 
@@ -307,6 +309,10 @@ nav {
     letter-spacing: -0.03em;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.nav__link_footer:hover {
+    opacity: 0.5;
 }
 
 .nav__link_footer:nth-last-child(1) {
