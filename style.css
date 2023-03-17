@@ -271,9 +271,19 @@ nav {
     color: #121212;
 }
 
+.number_link:hover {
+    border-bottom: 1px solid #000000;
+    opacity: 0.5;
+}
+
 .email_link {
     text-decoration: none;
     color: #121212;
+}
+
+.email_link:hover {
+    border-bottom: 1px solid #000000;
+    opacity: 0.5;
 }
 
 .footer {
