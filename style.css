@@ -185,7 +185,7 @@ nav {
 }
 
 .nav__link:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid #000000;
     opacity: 0.5;
 }
 
@@ -195,7 +195,6 @@ nav {
 }
 
 .image-forest-scenery {
-    position: relative;
     height: 717px;
     background: linear-gradient(180deg, 
     rgba(0, 0, 0, 0) 0.52%, 
@@ -206,9 +205,16 @@ nav {
     background-position: 50%;
 }
 
+.fixed-side {
+    margin: 0 auto;
+    width: 1400px;
+    height: 717px;
+    position: relative;
+}
+
 .text-forest-scenery {
     position: absolute;
-    left: 186px;
+    left: 125px;
     bottom: 62px;
     width: 443px;
     height: 82px;
@@ -220,8 +226,9 @@ nav {
 
 .section-contacts {
     height: 251px;
-    width: 478px;
-    margin-left: 183px;
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 125px;
 }
 
 .contacts_title {
@@ -247,7 +254,7 @@ nav {
     padding-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
     color: #121212;
 }
 
