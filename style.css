@@ -34,6 +34,14 @@ h3 {
     color: #FFFFFF;
 }
 
+p {
+    letter-spacing: -0.03em;
+}
+
+a {
+    letter-spacing: -0.03em;
+}
+
 nav {
     display: inline-block;
     vertical-align: top;
@@ -61,7 +69,6 @@ footer {
     margin-left: 56px;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-decoration: none;
     transition: 0.5s;
     color: #121212
@@ -90,7 +97,6 @@ footer {
     width: 430px;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
 }
 
@@ -99,7 +105,6 @@ footer {
     width: 1048px;
     font-size: 45px;
     line-height: 61px;
-    letter-spacing: -0.03em;
     color: #121212;
 }
 
@@ -119,13 +124,11 @@ footer {
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     }
 
 .project__information {
     font-size: 20px;
-    line-height: 20px;
-    letter-spacing: -0.03em;   
+    line-height: 20px;  
     text-decoration: none; 
     color: #AD1818;
 }
@@ -137,12 +140,10 @@ footer {
     width: 1150px;
     height: 153px;
     font-size: 30px;
-    line-height: 41px;
     border: 1px solid #AD1818;
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    letter-spacing: -0.03em;
     transition: 0.5s;
     color: #AD1818;
 }
@@ -160,7 +161,6 @@ footer {
     line-height: 27px;
     border-radius: 5px;
     text-decoration: none;
-    letter-spacing: -0.03em;
     background-color: #AD1818;
     color: #FFFFFF;
 }
@@ -172,8 +172,6 @@ footer {
 }
 
 .container-black {
-    width: 100%;
-    margin: 0px auto;
     padding: 150px 125px 90px 125px;
     background: #121212;
 }
@@ -232,7 +230,6 @@ footer {
     width: 443px;
     font-size: 30px;
     line-height: 41px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
 }
 
@@ -247,7 +244,6 @@ footer {
     padding-bottom: 32px;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     text-transform: uppercase;
 }
 
@@ -266,14 +262,12 @@ footer {
     padding-bottom: 30px;
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.02em;
     color: #121212;
 }
 
 .contacts_email {
     font-size: 60px;
     line-height: 60px;
-    letter-spacing: -0.03em;
     color: #121212;
     opacity: 0.5;
 }
@@ -312,7 +306,6 @@ footer {
     margin-right: 52px;
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
     text-decoration: none;
     transition: 0.5s;
@@ -331,7 +324,6 @@ footer {
     margin-top: 87px;
     font-size: 20px;
     line-height: 27px;
-    letter-spacing: -0.03em;
     color: #FFFFFF;
     opacity: 0.5;
 }
