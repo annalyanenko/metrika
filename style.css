@@ -344,6 +344,10 @@ footer {
         margin-top: 120px;
     }
 
+    .main-img {
+        width: 100%;
+    }
+
     .about-dscrptn {
         width: 100%;
         padding-right: 250px;
@@ -377,6 +381,10 @@ footer {
     h2 {
         font-size: 14px;
         line-height: 19px;
+    }
+
+    .main-img {
+        width: 100%;
     }
 
     .main-text {
