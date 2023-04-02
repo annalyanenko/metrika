@@ -328,7 +328,6 @@ footer {
     opacity: 0.5;
 }
 
-
 @media (max-width: 1199px) {
     .container {
         width: 100%;
@@ -336,11 +335,28 @@ footer {
         padding-right: 17px;
 
     }
+    .main-img {
+        width: 100%;
+    }
+
+    h2 {
+        margin-top: 120px;
+    }
+
+    .about-dscrptn {
+        padding-right: 250px;
+    }
+
+    .project {
+        margin-bottom: 80px;
+    }
+    .project__title {
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 767px) {
     .container {
-        width: 100%;
         padding-left: 13px;
         padding-right: 13px;
     }
