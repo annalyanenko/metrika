@@ -335,8 +335,9 @@ footer {
         padding-right: 17px;
 
     }
-    .main-img {
-        width: 100%;
+
+    h1 {
+        font-size: 50px;
     }
 
     h2 {
@@ -344,7 +345,10 @@ footer {
     }
 
     .about-dscrptn {
+        width: 100%;
         padding-right: 250px;
+        font-size: 35px;
+        line-height: 48px;
     }
 
     .project {
@@ -352,6 +356,8 @@ footer {
     }
     .project__title {
         margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
     }
 }
 
