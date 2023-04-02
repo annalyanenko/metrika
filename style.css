@@ -385,6 +385,7 @@ footer {
     }
 
     .about-dscrptn  {
+        width: 100%;
         font-size: 22px;
         line-height: 30px;
     }
