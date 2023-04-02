@@ -354,6 +354,7 @@ footer {
     .project {
         margin-bottom: 80px;
     }
+
     .project__title {
         margin-bottom: 10px;
         font-size: 25px;
@@ -363,7 +364,50 @@ footer {
 
 @media (max-width: 767px) {
     .container {
+        width: 100%;
         padding-left: 13px;
         padding-right: 13px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .main-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about-dscrptn  {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .btn-services-more {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .project__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .project__information {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .btn-all__projects {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+        
     }
 }
