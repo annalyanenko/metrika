@@ -269,7 +269,6 @@ footer {
     font-size: 60px;
     line-height: 60px;
     color: #121212;
-    opacity: 0.5;
 }
 
 .number_link {
@@ -287,7 +286,6 @@ footer {
 
 .email_link {
     text-decoration: none;
-    border-bottom: 1px solid #000000;
     color: #121212;
 }
 
@@ -328,95 +326,3 @@ footer {
     opacity: 0.5;
 }
 
-@media (max-width: 1199px) {
-    .container {
-        width: 100%;
-        padding-left: 17px;
-        padding-right: 17px;
-
-    }
-
-    h1 {
-        font-size: 50px;
-    }
-
-    h2 {
-        margin-top: 120px;
-    }
-
-    .main-img {
-        width: 100%;
-    }
-
-    .about-dscrptn {
-        width: 100%;
-        padding-right: 250px;
-        font-size: 35px;
-        line-height: 48px;
-    }
-
-    .project {
-        margin-bottom: 80px;
-    }
-
-    .project__title {
-        margin-bottom: 10px;
-        font-size: 25px;
-        line-height: 34px;
-    }
-}
-
-@media (max-width: 767px) {
-    .container {
-        width: 100%;
-        padding-left: 13px;
-        padding-right: 13px;
-    }
-
-    h1 {
-        font-size: 30px;
-        line-height: 32px;
-    }
-
-    h2 {
-        font-size: 14px;
-        line-height: 19px;
-    }
-
-    .main-img {
-        width: 100%;
-    }
-
-    .main-text {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .about-dscrptn  {
-        width: 100%;
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    .btn-services-more {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .project__title {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .project__information {
-        font-size: 16px;
-        line-height: 22px;
-    }
-
-    .btn-all__projects {
-        width: 100%;
-        font-size: 22px;
-        line-height: 30px;
-        
-    }
-}
