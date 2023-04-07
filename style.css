@@ -55,11 +55,11 @@ footer {
 }
 
 .container {
-    margin: 0px auto;
     width: 1150px;
+    margin: 0px auto;
 }
 
-.logo {
+.header__logo {
     display: block;
     height: 21px;
     width: 127px
@@ -198,7 +198,7 @@ footer {
    margin-bottom: 13px;
 }
 
-.logo-link {
+.header__logo-link {
     display: inline-block;
     margin-right: 500px;
 }
@@ -324,5 +324,95 @@ footer {
     line-height: 27px;
     color: #FFFFFF;
     opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .about-dscrptn {
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .project__title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .project__information {
+        line-height: 27px;  
+    }
+
+    .btn-all__projects {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding-left: 13px;
+        padding-left: 13px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 32px;
+        width: 348px;
+    }
+
+    .main-text {
+        width: 312px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    h2 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .about-dscrptn {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .btn-services-more {
+        padding: 15px 30px;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 4px;
+        text-decoration: none;
+        background-color: #AD1818;
+        color: #FFFFFF;
+    }
+
+    .project__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .project__information {
+        font-size: 16px;
+        line-height: 22px;  
+    }
+
+    /*Ширина кнопки - подумать*/
+    .btn-all__projects {
+        width: 350px;
+        font-size: 22px;
+        line-height: 35px;
+        border-radius: 4px;
+    }
 }
 
