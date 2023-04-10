@@ -296,12 +296,12 @@ footer {
     opacity: 0.5;
 }
 
-.nav__footer {
+.footer__nav {
     margin: 0 auto;
     width: 461px;
 }
 
-.nav__link-footer {
+.footer__nav-link {
     display: inline-block;
     margin-right: 52px;
     font-size: 18px;
@@ -311,15 +311,15 @@ footer {
     transition: 0.5s;
 }
 
-.nav__link-footer:hover {
+.footer__nav-link:hover {
     opacity: 0.5;
 }
 
-.nav__link-footer:nth-last-child(1) {
+.footer__nav-link:nth-last-child(1) {
     margin-right: 0;
 }
 
-.text__footer {
+.footer__text {
     text-align: center;
     margin-top: 87px;
     font-size: 20px;
