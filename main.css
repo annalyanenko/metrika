@@ -1,5 +1,5 @@
-@import "/footer.css";
-@import "/projects.css";
+@import "footer.css";
+@import "projects.css";
 
 html {
     scroll-behavior: smooth;
@@ -129,7 +129,7 @@ footer {
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 41px;
-    }
+}
 
 .project__information {
     font-size: 20px;
