@@ -3,6 +3,11 @@ header {
     padding-top: 33px;
 }
 
+nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .header__logo {
     display: block;
     height: 21px;

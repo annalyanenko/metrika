@@ -1,0 +1,29 @@
+.gallery {
+    height: 717px;
+    margin-bottom: 150px;
+}
+
+.gallery__image {
+    height: 717px;
+    background: url('./resources/forest-scenery.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.gallery__fixed-side {
+    margin: 0 auto;
+    width: 1400px;
+    height: 717px;
+    position: relative;
+}
+
+.gallery__text-forest-scenery {
+    position: absolute;
+    left: 125px;
+    bottom: 62px;
+    width: 443px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}

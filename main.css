@@ -3,6 +3,8 @@
 @import "header.css";
 @import "contacts.css";
 @import "services.css";
+@import "intro.css";
+@import "gallery.css";
 
 html {
     scroll-behavior: smooth;
@@ -43,37 +45,9 @@ a {
     letter-spacing: -0.03em;
 }
 
-nav {
-    display: inline-block;
-    vertical-align: top;
-}
-
 .container {
     width: 1150px;
     margin: 0px auto;
-}
-
-.main-img {
-    position: relative;
-    margin-top: 30px;
-    height: 500px;  
-    background: linear-gradient(180deg, 
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.2) 100%), 
-     url('resources/chair.jpg');
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-}
-
-.main-text {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    width: 430px;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
 }
 
 .about-dscrptn {
@@ -89,34 +63,11 @@ nav {
     background: #121212;
 }
 
-.fullscreen-image {
-    height: 717px;
-    margin-bottom: 150px;
-}
-
-.image-forest-scenery {
-    height: 717px;
-    background: url('./resources/forest-scenery.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
-
-.fixed-side {
-    margin: 0 auto;
+.section-contacts {
+    height: 251px;
     width: 1400px;
-    height: 717px;
-    position: relative;
-}
-
-.text-forest-scenery {
-    position: absolute;
-    left: 125px;
-    bottom: 62px;
-    width: 443px;
-    font-size: 30px;
-    line-height: 41px;
-    color: #FFFFFF;
+    margin: 0 auto;
+    padding-left: 125px;
 }
 
 @media (max-width: 1199px) {
