@@ -1,3 +1,10 @@
+footer {
+    height: 229px;
+    margin-top: 150px;
+    padding-top: 60px;
+    background-color: #121212;
+}
+
 .footer__nav {
     margin: 0 auto;
     width: 461px;

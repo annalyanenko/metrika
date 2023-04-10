@@ -1,0 +1,39 @@
+.btn-services-more {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 27px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+.btn-services-more:hover {
+    color: #AD1818;
+    background-color: #d8cdcdf1;
+    transition: 0.5s;
+}
+
+.services__title {
+    margin-top: auto;
+    margin-bottom: 37px;
+    padding-left: 2px;
+    padding-top: 2px;
+    width: 66px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.service {
+    margin: 0 auto;
+    width: 1150px;
+    margin-bottom: 60px;
+}
+
+.service__image {
+   margin-bottom: 13px;
+}

@@ -1,0 +1,29 @@
+header {
+    padding-bottom: 70px;
+    padding-top: 33px;
+}
+
+.header__logo {
+    display: block;
+    height: 21px;
+    width: 127px
+}
+
+.header__logo-link {
+    display: inline-block;
+    margin-right: 500px;
+}
+
+.header__nav-link {
+    margin-left: 56px;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #121212
+}
+
+.header__nav-link:hover {
+    border-bottom: 1px solid #000000;
+    opacity: 0.5;
+}
