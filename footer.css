@@ -1,0 +1,31 @@
+.footer__nav {
+    margin: 0 auto;
+    width: 461px;
+}
+
+.footer__nav-link {
+    display: inline-block;
+    margin-right: 52px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer__nav-link:hover {
+    opacity: 0.5;
+}
+
+.footer__nav-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.footer__text {
+    text-align: center;
+    margin-top: 87px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
