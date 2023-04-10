@@ -5,6 +5,7 @@
 @import "services.css";
 @import "intro.css";
 @import "gallery.css";
+@import "about-us.css";
 
 html {
     scroll-behavior: smooth;
@@ -16,6 +17,7 @@ body {
 }
 
 h1 {
+    width: 956px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
@@ -50,14 +52,6 @@ a {
     margin: 0px auto;
 }
 
-.about-dscrptn {
-    margin-top: 30px;
-    width: 1048px;
-    font-size: 45px;
-    line-height: 61px;
-    color: #121212;
-}
-
 .container-black {
     padding: 150px 125px 90px 125px;
     background: #121212;
@@ -78,69 +72,25 @@ a {
     }
 
     h1 {
+        width: 802px;
         font-size: 50px;
     } 
 
     h2 {
         margin-top: 120px;
     }
-
-    .main-img {
-        height: 400px;
-    }
-
-    .main-text {
-        bottom: 30px;
-    }
-
-    .about-dscrptn {
-        width: 690px;
-        font-size: 35px;
-        line-height: 48px;
-    }
-
-    .project {
-        margin-bottom: 80px;
-    }
-    
-    .project__title {
-        font-size: 25px;
-        line-height: 34px;
-    }
-    
-    .project__image {
-        width: 100%;
-    }
-    
-    .project__information {
-        line-height: 27px;  
-    }
-    
-    .btn-all__projects {
-        margin-bottom: 103px;
-        width: 100%;
-    }    
 }
 
 @media (max-width: 767px) {
     .container {
-        width: 100%;
         padding-left: 13px;
         padding-left: 13px;
     }
 
     h1 {
+        width: 348px;
         font-size: 30px;
         line-height: 32px;
-        width: 348px;
-    }
-
-    .main-text {
-        width: 312px;
-        bottom: 15px;
-        left: 15px;
-        font-size: 16px;
-        line-height: 22px;
     }
 
     h2 {
@@ -148,49 +98,5 @@ a {
         margin-bottom: 20px;
         font-size: 14px;
         line-height: 19px;
-    }
-
-    .main-img {
-        height: 304px;
-    }
-
-    .about-dscrptn {
-        width: 100%;
-        margin-top: 20px;
-        font-size: 22px;
-        line-height: 30px;
-    }
-
-    .btn-services-more {
-        padding: 15px 30px;
-        font-size: 16px;
-        line-height: 22px;
-        border-radius: 4px;
-    }
-
-    .project {
-        margin-bottom: 49px;
-    }
-
-    .project__title {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .project__image {
-        padding-bottom: 20px;
-        width: 100%;
-    }
-
-    .project__information {
-        font-size: 16px;
-        line-height: 22px;  
-    }
-
-    .btn-all__projects {
-        margin-bottom: 144px;
-        font-size: 22px;
-        line-height: 30px;
-        border-radius: 4px;
     }
 }

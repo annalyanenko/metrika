@@ -42,3 +42,55 @@
     color: #FFFFFF;
     background-color: #AD1818;
 }
+
+@media (max-width: 1199px) {
+    .project {
+        margin-bottom: 80px;
+    }
+    
+    .project__title {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    
+    .project__image {
+        width: 100%;
+    }
+    
+    .project__information {
+        line-height: 27px;  
+    }
+    
+    .btn-all__projects {
+        margin-bottom: 103px;
+        width: 100%;
+    }    
+}
+
+@media (max-width: 767px) {
+    .project {
+        margin-bottom: 49px;
+    }
+
+    .project__title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .project__image {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .project__information {
+        font-size: 16px;
+        line-height: 22px;  
+    }
+
+    .btn-all__projects {
+        margin-bottom: 144px;
+        font-size: 22px;
+        line-height: 30px;
+        border-radius: 4px;
+    }
+}

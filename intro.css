@@ -5,7 +5,7 @@
     background: linear-gradient(180deg, 
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.2) 100%), 
-     url('resources/chair.jpg');
+     url('resources/interior.jpg');
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -19,4 +19,38 @@
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
+}
+
+@media (max-width: 1199px) {
+    .intro__img {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .intro__img-text {
+        bottom: 30px;
+    }
+
+    @media (max-width: 767px) {
+        .intro__img {
+            width: 100%;
+            height: 304px;
+        }
+    
+        .intro__img-text {
+            width: 312px;
+            bottom: 15px;
+            left: 15px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    
+    }
+}
+
+@media (max-width: 400px) {
+    .intro__img {
+        background-image: url('resources/interior_mobile.png');
+    }
 }

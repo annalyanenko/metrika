@@ -1,0 +1,49 @@
+.about-us__dscrptn {
+    margin-top: 30px;
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61px;
+    color: #121212;
+}
+
+.about-us__button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 27px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+.about-us__button:hover {
+    color: #AD1818;
+    background-color: #d8cdcdf1;
+    transition: 0.5s;
+}
+
+@media (max-width: 1199px) {
+    .about-us__dscrptn {
+        width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-us__dscrptn {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .about-us__button {
+        padding: 15px 30px;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 4px;
+    }
+}
