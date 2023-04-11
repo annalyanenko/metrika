@@ -48,23 +48,41 @@
         <section id="projects">
             <div class="project">
                 <h2 class="project__list">ПРОЕКТЫ</h2>
-                <img class="project__image" src="resources/right.jpg" alt="Уютная гостиная с панорамными окнами">
+                <picture>
+                    <source media="(max-width: 767px)" 
+                    srcset="resources/right_mobile.png"/>
+                    <source media="(max-width: 1199px )" 
+                    srcset="resources/right_tablet.png"/>
+                    <img class="project__image" 
+                    src="resources/right.jpg" 
+                    alt="Уютная гостиная с панорамными окнами">
+                </picture>
                 <p class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
                 <a class="project__information" href="#">Подробнее →</a>
             </div>
-    
             <div class="project">
                 <picture>
+                    <source media="(max-width: 767px)" 
+                    srcset="resources/norway_mobile.png"/>
+                    <source media="(max-width: 1199px)" 
+                    srcset="resources/norway_tablet.png"/>
                     <img class="project__image" 
-                    src="resources/norway.jpg" 
+                    src="resources/right.jpg" 
                     alt="Уютная гостиная в скандинавском стиле">
                 </picture>
                 <p class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
                 <a class="project__information" href="#">Подробнее →</a>
             </div>
-    
             <div class="project">
-                <img class="project__image" src="resources/lakes.jpg" alt="Кухня-гостиная со стеклянной перегородкой">
+                <picture>
+                    <source media="(max-width: 767px)" 
+                    srcset="resources/lakes_mobile.png"/>
+                    <source media="(max-width: 1199px)" 
+                    srcset="resources/lakes_tablet.png"/>
+                    <img class="project__image" 
+                    src="resources/lakes.jpg" 
+                    alt="Кухня-гостиная со стеклянной перегородкой">
+                </picture>
                 <a class="project__information" href="#">Подробнее →</a>
             </div>
             <a class="btn-all__projects" href="#">Смотреть все проекты</a>
