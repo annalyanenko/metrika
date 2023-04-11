@@ -57,13 +57,6 @@ a {
     background: #121212;
 }
 
-.section-contacts {
-    height: 251px;
-    width: 1400px;
-    margin: 0 auto;
-    padding-left: 125px;
-}
-
 @media (max-width: 1199px) {
     .container {
         width: 100%;
