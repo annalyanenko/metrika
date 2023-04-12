@@ -53,6 +53,8 @@ a {
 }
 
 .container-black {
+    width: 1400px;
+    margin: 0 auto;
     padding: 150px 125px 90px 125px;
     background: #121212;
 }

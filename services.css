@@ -1,21 +1,23 @@
-.services__title {
+.services__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 80px;
+}
+
+.service {
+    width: calc(50% - 5px);
+    }
+
+.service__title {
     margin-top: auto;
-    margin-bottom: 37px;
-    padding-left: 2px;
-    padding-top: 2px;
-    width: 66px;
-    height: 25px;
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
 }
 
-.service {
-    margin: 0 auto;
-    width: 1150px;
-    margin-bottom: 60px;
+.service__image {
+   margin-bottom: 25px;
 }
 
-.service__image {
-   margin-bottom: 13px;
-}
