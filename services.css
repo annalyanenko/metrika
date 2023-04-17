@@ -6,7 +6,7 @@
 }
 
 .service {
-    width: calc(50% - 5px);
+   width: calc(50% - 5px);
     }
 
 .service__title {
@@ -19,6 +19,33 @@
 
 .service__image {
    margin-bottom: 25px;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+
+    .service__image {
+        margin-bottom: 15px;
+     }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 21px;
+        padding-left: 15px;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .services__wrapper {
+        row-gap: 60px;
+    }
 }
 
 

@@ -52,10 +52,8 @@ a {
     margin: 0px auto;
 }
 
-.container-black {
-    width: 1400px;
-    margin: 0 auto;
-    padding: 150px 125px 90px 125px;
+.section-black {
+    padding-top: 150px;
     background: #121212;
 }
 
