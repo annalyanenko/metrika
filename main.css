@@ -6,6 +6,7 @@
 @import "intro.css";
 @import "gallery.css";
 @import "about-us.css";
+@import "review.css";
 
 html {
     scroll-behavior: smooth;
