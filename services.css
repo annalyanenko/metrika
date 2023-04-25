@@ -1,7 +1,7 @@
 .services__wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 10px;
     row-gap: 80px;
 }
 
@@ -72,6 +72,10 @@
         width: 100%;
         margin-bottom: 15px;
      }
+
+     .services__wrapper {
+        column-gap: 8px;
+    }
 
      .label {
         padding: 6px 26px 6px 26px;

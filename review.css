@@ -20,5 +20,17 @@
 }
 
 @media (max-width: 1199px) {
-    
+.col {
+    width: 100%;
+}
+}
+
+@media (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+    }
 }
