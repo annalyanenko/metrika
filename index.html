@@ -46,45 +46,47 @@
                 <a class="about-us__button" href="#">Посмотреть услуги</a>
             </section>
         <section id="projects">
-            <div class="project">
-                <h2 class="project__list">ПРОЕКТЫ</h2>
-                <picture>
-                    <source media="(max-width: 767px)" 
-                    srcset="resources/right_mobile.png" type="image/png"/>
-                    <source media="(max-width: 1199px )" 
-                    srcset="resources/right_tablet.png" type="image/png"/>
-                    <img class="project__image" 
-                    src="resources/right.jpg" 
-                    alt="Уютная гостиная с панорамными окнами">
-                </picture>
-                <p class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-                <a class="project__information" href="#">Подробнее →</a>
-            </div>
-            <div class="project">
-                <picture>
-                    <source media="(max-width: 767px)" 
-                    srcset="resources/norway_mobile.png" type="image/png"/>
-                    <source media="(max-width: 1199px)" 
-                    srcset="resources/norway_tablet.png" type="image/png"/>
-                    <img class="project__image" 
-                    src="resources/norway.jpg" 
-                    alt="Уютная гостиная в скандинавском стиле">
-                </picture>
-                <p class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
-                <a class="project__information" href="#">Подробнее →</a>
-            </div>
-            <div class="project">
-                <picture>
-                    <source media="(max-width: 767px)" 
-                    srcset="resources/lakes_mobile.png" type="image/png"/>
-                    <source media="(max-width: 1199px)" 
-                    srcset="resources/lakes_tablet.png" type="image/png"/>
-                    <img class="project__image" 
-                    src="resources/lakes.jpg" 
-                    alt="Кухня-гостиная со стеклянной перегородкой">
-                </picture>
-                <a class="project__information" href="#">Подробнее →</a>
-            </div>
+            <ul>
+                <li class="project">
+                    <h2 class="project__list">ПРОЕКТЫ</h2>
+                    <picture>
+                        <source media="(max-width: 767px)" 
+                        srcset="resources/right_mobile.png" type="image/png"/>
+                        <source media="(max-width: 1199px )" 
+                        srcset="resources/right_tablet.png" type="image/png"/>
+                        <img class="project__image" 
+                        src="resources/right.jpg" 
+                        alt="Уютная гостиная с панорамными окнами">
+                    </picture>
+                    <p class="project__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+                    <a class="project__information" href="#">Подробнее →</a>
+                </li>
+                <li class="project">
+                    <picture>
+                        <source media="(max-width: 767px)" 
+                        srcset="resources/norway_mobile.png" type="image/png"/>
+                        <source media="(max-width: 1199px)" 
+                        srcset="resources/norway_tablet.png" type="image/png"/>
+                        <img class="project__image" 
+                        src="resources/norway.jpg" 
+                        alt="Уютная гостиная в скандинавском стиле">
+                    </picture>
+                    <p class="project__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+                    <a class="project__information" href="#">Подробнее →</a>
+                </li>
+                <li class="project">
+                    <picture>
+                        <source media="(max-width: 767px)" 
+                        srcset="resources/lakes_mobile.png" type="image/png"/>
+                        <source media="(max-width: 1199px)" 
+                        srcset="resources/lakes_tablet.png" type="image/png"/>
+                        <img class="project__image" 
+                        src="resources/lakes.jpg" 
+                        alt="Кухня-гостиная со стеклянной перегородкой">
+                    </picture>
+                    <a class="project__information" href="#">Подробнее →</a>
+                </li>
+            </ul>
             <a class="btn-all__projects" href="#">Смотреть все проекты</a>
     </div>
         </section>
@@ -93,8 +95,8 @@
                 <div>
                     <h2 class="service__title">УСЛУГИ</h2>
                 </div>
-                    <div class="services__wrapper">
-                        <div class="service">
+                    <ul class="services__wrapper">
+                        <li class="service">
                                 <div class="label">
                                     <p class="label__txt">от 2500₽/м²</p>
                                 </div>
@@ -106,8 +108,8 @@
                                 <img class="service__image" src="resources/Service_frst.png" alt="Чертежи">
                             </picture>
                             <h3>Планировочное решение</h3>
-                        </div>
-                        <div class="service">
+                        </li>
+                        <li class="service">
                             <div class="label">
                                 <p class="label__txt">от 3000₽/м²</p>
                             </div>
@@ -119,8 +121,8 @@
                                 <img class="service__image" src="resources/Service_scnd.png" alt="Палитра цветов">
                             </picture>
                             <h3>Дизайн-проект</h3>
-                        </div>
-                        <div class="service">
+                        </li>
+                        <li class="service">
                             <div class="label">
                                 <p class="label__txt">от 30 000₽/мес</p>
                             </div>
@@ -132,8 +134,8 @@
                                 <img class="service__image" src="resources/Service_thrd.png" alt="План-проект">
                             </picture>
                             <h3>Авторский надзор</h3>  
-                        </div>
-                        <div class="service">
+                        </li>
+                        <li class="service">
                             <div class="label">
                                 <p class="label__txt">5% от стоимости</p>
                             </div>
@@ -145,8 +147,8 @@
                                 <img class="service__image" src="resources/Service_foth.png" alt="Склад с комплектующими">
                             </picture>
                             <h3>Комплектация</h3>
-                        </div>
-                    </div>
+                        </li>
+                    </ul>
                     <a class="service__order-btn" href="#">Заказать услугу</a>
             </div>
         </section>
@@ -185,16 +187,14 @@
                     </ul> 
             </div>
         </section>
-            
-        
         <!-- <section class="gallery">
             <div class="gallery__image">
                 <div class="gallery__fixed-side">
                     <p class="gallery__text-forest-scenery">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</p> 
                 </div>
             </div>
-        </section>
-            <section id="contacts" class="section-contacts">
+        </section> -->
+            <!-- <section id="contacts" class="section-contacts">
                 <p class="contacts__title">Контакты</p>
                 <p class="contacts__number">
                     <a class="number__link" href="tel:+79358954535">+7 935  895-45-35</a>
@@ -213,5 +213,7 @@
             <p class="footer__text">студия дизайна интерьера Метрика — 2023</p> 
     </footer>  -->
 </main>
+
+    <script src="gallery.js"></script>
 </body>
 </html>
