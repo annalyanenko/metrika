@@ -1,27 +1,21 @@
-.gallery {
-    height: 717px;
+.gallery-section {
     margin-bottom: 150px;
 }
 
-.gallery__image {
-    height: 717px;
-    background: url('./resources/forest-scenery.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-}
-
-.gallery__fixed-side {
-    margin: 0 auto;
-    width: 1400px;
-    height: 717px;
+.gallery {
     position: relative;
 }
 
-.gallery__text-forest-scenery {
+.forest-scenery {
+    width: 100%;
+}
+
+.gallery__title-wrapper {
     position: absolute;
-    left: 125px;
-    bottom: 62px;
+    width: 100%;
+}
+
+.gallery__title {
     width: 443px;
     font-size: 30px;
     line-height: 41px;
