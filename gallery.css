@@ -125,4 +125,35 @@
         padding-left: 13px;
         padding-left: 13px;
     }
+
+    .gallery__title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .gallery__title-wrapper {
+        position: absolute;
+        top: 61px;
+        left: 12px;
+    }
+
+    .gallery__txt {
+        font-size: 19px;
+        line-height: 26px;
+    }
+
+    .gallery__txt-wrapper {
+        position: absolute;
+        bottom: 60px;
+        left: 13px;
+    }
+
+    .gallery__controls {
+        position: absolute;
+        bottom: 50%;
+        left: 7px;
+        right: 7px;
+        width: 100%;
+        justify-content: space-between;
+    }
 }
