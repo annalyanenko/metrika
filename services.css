@@ -63,8 +63,8 @@
 @media (max-width: 1199px) {
     .container {
         width: 100%;
-        padding-left: 27px;
-        padding-right: 27px;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     .service__image {
@@ -130,6 +130,9 @@
         line-height: 30px;
     }
 }
+
+
+
 
 
 

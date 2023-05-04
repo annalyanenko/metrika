@@ -3,46 +3,109 @@
 }
 
 .contacts__title {
-    margin-bottom: 24px;
+    padding-bottom: 68px;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
 }
 
-.contacts__phone::before,
-.contacts__email::before {
+.contacts__wrapper {
+    display: flex;
+    gap: 104px;
+    flex-wrap: wrap;
+}
+
+.contacts__phone,
+.contacts__email {
+    position: relative;
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #121212;
+}
+
+.contacts__phone:before,
+.contacts__email:before {
+    position: absolute;
+    bottom: 80px;
     content: '';
     display: block;
-    background-position: center;
+    width: 24px;
+    height: 24px;
+    background-image: url('resources/phone.png');
+    background-size: cover;
+    background-position: 50%;
     background-repeat: no-repeat;
 }
 
-.contacts__phone::before {
-    background-image: url('resources/phone.png');
-}
-
-.contacts__phone {
-    font-size: 60px;
-    line-height: 60px;
-    text-decoration: none;
-    transition: 0.5s;
-    color: #121212;
-}
-
-.contacts__email {
-    font-size: 60px;
-    line-height: 60px;
-    text-decoration: none;
-    transition: 0.5s;
-    color: #121212;
+.contacts__email:before {
+    background-image: url('resources/icon_email.png');
 }
 
 .contacts__phone:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #000000;
     opacity: 0.5;
 }
 
 .contacts__email:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #000000;
     opacity: 0.5;
+} 
+
+@media (max-width: 1199px) {
+
+.section-contacts {
+        margin-top: 120px;
+}
+
+.container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.contacts__wrapper {
+    gap: 114px;
+}
+
+.contacts__phone,
+.contacts__email {
+    font-size: 45px;
+}
+}
+
+@media (max-width: 767px) {
+.container {
+    padding-left: 15px;
+    padding-left: 15px;
+}
+
+.section-contacts {
+    margin-top: 80px;
+}
+
+.contacts__title {
+    padding-bottom: 64px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.contacts__wrapper {
+    gap: 20px;
+}
+
+.contacts__phone:before,
+.contacts__email:before {
+    bottom: 74px;
+    width: 18px;
+    height: 18px;
+}
+
+.contacts__phone,
+.contacts__email {
+    font-size: 35px;
+    line-height: 46px;
+}
 }
