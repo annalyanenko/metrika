@@ -3,7 +3,7 @@
 }
 
 .contacts__title {
-    padding-bottom: 68px;
+    margin-bottom: 24px;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -11,13 +11,12 @@
 
 .contacts__wrapper {
     display: flex;
-    gap: 104px;
+    column-gap: 104px;
     flex-wrap: wrap;
 }
-
-.contacts__phone,
-.contacts__email {
-    position: relative;
+    
+.phone__link,
+.email__link {
     display: block;
     font-size: 60px;
     line-height: 60px;
@@ -28,36 +27,34 @@
 
 .contacts__phone:before,
 .contacts__email:before {
-    position: absolute;
-    bottom: 80px;
     content: '';
     display: block;
+    margin-bottom: 26px;
     width: 24px;
     height: 24px;
-    background-image: url('resources/phone.png');
-    background-size: cover;
+    background-size: contain;
     background-position: 50%;
     background-repeat: no-repeat;
+}
+
+.contacts__phone:before {
+    background-image: url('resources/phone.png');
 }
 
 .contacts__email:before {
     background-image: url('resources/icon_email.png');
 }
 
-.contacts__phone:hover {
+.contacts__phone:hover,
+.contacts__email:hover {
     border-bottom: 2px solid #000000;
     opacity: 0.5;
 }
 
-.contacts__email:hover {
-    border-bottom: 2px solid #000000;
-    opacity: 0.5;
-} 
-
 @media (max-width: 1199px) {
 
 .section-contacts {
-        margin-top: 120px;
+    margin-top: 120px;
 }
 
 .container {
@@ -67,11 +64,11 @@
 }
 
 .contacts__wrapper {
-    gap: 114px;
+    column-gap: 114px;
 }
 
-.contacts__phone,
-.contacts__email {
+.phone__link,
+.email__link {
     font-size: 45px;
 }
 }
@@ -87,25 +84,25 @@
 }
 
 .contacts__title {
-    padding-bottom: 64px;
+    margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
 }
 
 .contacts__wrapper {
-    gap: 20px;
+    row-gap: 20px;
+}
+
+.phone__link,
+.email__link {
+    font-size: 35px;
+    line-height: 46px;
 }
 
 .contacts__phone:before,
 .contacts__email:before {
-    bottom: 74px;
+    margin-bottom: 20px;
     width: 18px;
     height: 18px;
-}
-
-.contacts__phone,
-.contacts__email {
-    font-size: 35px;
-    line-height: 46px;
 }
 }
