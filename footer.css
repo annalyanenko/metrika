@@ -5,7 +5,6 @@ footer {
 
 .footer__nav {
     margin: auto;
-    width: 450px;
     display: flex;
     justify-content: center;
 }
@@ -34,6 +33,7 @@ footer {
 }
 
 @media (max-width: 1199px) {
+
 .container {
     width: 100%;
     padding-left: 17px;
@@ -42,6 +42,7 @@ footer {
 }
 
 @media (max-width: 767px) {
+
 .container {
     padding-left: 15px;
     padding-left: 15px;
