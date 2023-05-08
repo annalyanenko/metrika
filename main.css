@@ -7,6 +7,7 @@
 @import "gallery.css";
 @import "about-us.css";
 @import "review.css";
+@import "popup.css";
 
 html {
     scroll-behavior: smooth;

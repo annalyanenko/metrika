@@ -44,6 +44,7 @@
 .service__order-btn {
     display: block;
     margin-top: 104px;
+    width: 1150px;
     height: 153px;
     font-size: 30px;
     line-height: 153px;
