@@ -60,14 +60,14 @@ body-fixed {
 }
 
 @media (max-width: 1199px) {
-    .section-black {
+    .popup__body {
         padding-left: 92px;
         padding-right: 92px;
     }
 }
 
-/* @media (max-width: 767px) {
-    .section-black {
+@media (max-width: 767px) {
+    .popup__body {
         width: 100%;
         padding-left: 7px;
         padding-left: 7px;
@@ -91,4 +91,4 @@ body-fixed {
         font-size: 14px;
         line-height: 19px;
     }
-} */
+} 
