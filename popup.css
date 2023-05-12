@@ -60,22 +60,12 @@ body-fixed {
 }
 
 @media (max-width: 1199px) {
-    .popup__body {
-        padding-left: 92px;
-        padding-right: 92px;
-    }
+
 }
 
 @media (max-width: 767px) {
-    .popup__body {
-        width: 100%;
-        padding-left: 7px;
-        padding-left: 7px;
-    }
 
-    .popup__content {
-        width: 361px;
-    }
+    
 
     .popup__title {
         margin-top: 80px;
@@ -91,4 +81,10 @@ body-fixed {
         font-size: 14px;
         line-height: 19px;
     }
+
+    .popup__close-btn {
+        width: 30px;
+        height: 30px;
+    }
+    
 } 
