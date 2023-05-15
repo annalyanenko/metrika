@@ -8,6 +8,7 @@
 @import "about-us.css";
 @import "review.css";
 @import "popup.css";
+@import "input.css";
 
 html {
     scroll-behavior: smooth;

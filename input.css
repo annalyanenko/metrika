@@ -1,0 +1,23 @@
+.input {
+    display: block;
+    margin-bottom: 50px;
+    width: 643px;
+    font-size: 25px;
+    line-height: 34px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    opacity: 0.5;
+}
+
+.input:focus {
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    .input {
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+    }
+}
+
