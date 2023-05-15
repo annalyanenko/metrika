@@ -15,7 +15,11 @@ html {
 
 body {
     font-family:'Manrope', sans-serif;
-    margin: 0 auto;
+    height: 100%;
+}
+
+.body_fixed {
+    overflow: hidden;
 }
 
 h1 {
