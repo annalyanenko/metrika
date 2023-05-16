@@ -3,6 +3,11 @@ header {
     padding-top: 33px;
 }
 
+nav {
+    display: flex;
+    gap: 60px;
+}
+
 .header__top {
     display: flex;
     justify-content: space-between;
@@ -14,9 +19,7 @@ header {
     width: 127px
 }
 
-
 .header__nav-link {
-    margin-left: 56px;
     font-size: 18px;
     line-height: 25px;
     text-decoration: none;
@@ -27,4 +30,12 @@ header {
 .header__nav-link:hover {
     border-bottom: 1px solid #000000;
     opacity: 0.5;
+}
+
+
+@media (max-width: 767px) {
+
+    nav {
+        display: none;
+    }
 }

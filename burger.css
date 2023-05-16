@@ -1,0 +1,39 @@
+@media (max-width: 1199px) {
+   
+    .burger-btn {
+        display: none;
+    }
+    
+    .burger {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    
+    .burger_open {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .burger__content {
+        width: 80%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .burger-btn {
+        display: block;
+        width: 38px;
+        height: 5px;
+    }
+}
