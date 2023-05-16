@@ -3,21 +3,17 @@ header {
     padding-top: 33px;
 }
 
-nav {
-    display: inline-block;
-    vertical-align: top;
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__logo {
-    display: block;
     height: 21px;
     width: 127px
 }
 
-.header__logo-link {
-    display: inline-block;
-    margin-right: 500px;
-}
 
 .header__nav-link {
     margin-left: 56px;
