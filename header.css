@@ -68,6 +68,7 @@ nav {
         background-color: rgba(0, 0, 0, 0.8);
         opacity: 0;
         visibility: hidden;
+        z-index: 50;
         transition: all 0.3s ease;
     }
 
@@ -80,6 +81,7 @@ nav {
         width: 80%;
         height: 100%;
         background-color: #FFFFFF;
+        overflow-y: auto;
     }
 }
 
