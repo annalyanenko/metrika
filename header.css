@@ -9,6 +9,7 @@ nav {
 } 
 
 .header__top {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,10 +44,17 @@ nav {
     }
 
     .burger-btn {
+        position: absolute;
+        right: 15px;
+        z-index: 100;
         display: block;
         width: 50px;
         height: 50px;
         background-color: #000000;
+    }
+
+    .burger-btn_open {
+        background-color: red;
     }
 
     .burger {
@@ -79,4 +87,8 @@ nav {
     nav {
         display: none;
     }
+
+    .burger-btn {
+        right: 12px;
+}
 }
