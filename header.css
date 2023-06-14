@@ -61,6 +61,7 @@ nav {
 .burger__content {
     width: 274px;
     height: 100%;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     padding: 80px 0 65px 30px;
@@ -72,11 +73,15 @@ nav {
 }
 
 .burger__nav {
+    display: block;
+    margin-top: 50px;
+} 
+
+.burger__nav_list {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 50px;
-} 
+}
 
 .burger__nav-link {
     font-size: 25px;
@@ -84,7 +89,31 @@ nav {
     text-decoration: none;
     transition: 0.5s;
     color: #000000;
+}
 
+.burger__contacts {
+    margin-top: 90px;
+}
+
+.burger__contacts_title {
+    font-size: 16px;
+    line-height: 22px;
+    transition: 0.5s;
+    color: #000000;
+}
+
+.burger__contacts_phone{
+    font-size: 20px;
+    line-height: 45px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.burger__contacts_link{
+    font-size: 20px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #000000;
 }
 
 @media (max-width: 1199px) {
@@ -115,11 +144,7 @@ nav {
         top: 6px;
         width: 31px;
 }
-
-}
-
-@media (max-width: 767px) {
-    .burger_open {
+    .burger-btn_open {
         position: absolute;
         top: 20px;
         right: 20px;
@@ -128,6 +153,21 @@ nav {
         background-image: url('resources/burger_icons_cross.png');
         background-repeat: no-repeat;
         background-position: center;
+        z-index: 101;
+}
+}
+
+@media (max-width: 767px) {
+
+    .burger-btn { 
+        width: 38px;
+}
+
+    .burger-btn::after {
+        top: 5px;
+        width: 24px;
     }
+    
+   
 }
 
