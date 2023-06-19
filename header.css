@@ -44,7 +44,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 100;
+    z-index: 80;
     display: flex;
     justify-content: end;
     background-color: rgba(0, 0, 0, 0.8);
@@ -123,9 +123,9 @@ nav {
     }
 
     .burger-btn {
+        position: relative;
         display: block;
         width: 50px;
-        position: relative;
         background: none;
         border: none;
     }
@@ -144,15 +144,22 @@ nav {
         top: 6px;
         width: 31px;
 }
+
+    .burger-btn_open::before,
+    .burger-btn_open::after { 
+        display: none;
+    }
+
     .burger-btn_open {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        top: 0px;
+        right: 0px;
         height: 34px;
         width: 34px;
         background-image: url('resources/burger_icons_cross.png');
         background-repeat: no-repeat;
         background-position: center;
+        z-index: 100;
 }
 }
 
