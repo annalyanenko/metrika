@@ -98,8 +98,8 @@ nav {
 .burger__contacts_title {
     font-size: 16px;
     line-height: 22px;
-    transition: 0.5s;
     color: #000000;
+    opacity: 0.5;
 }
 
 .burger__contacts_phone{
