@@ -107,6 +107,7 @@ nav {
     line-height: 45px;
     text-decoration: none;
     color: #000000;
+    transition: 0.5s;
 }
 
 .burger__contacts_link{
@@ -114,6 +115,7 @@ nav {
     line-height: 22px;
     text-decoration: none;
     color: #000000;
+    transition: 0.5s;
 }
 
 @media (max-width: 1199px) {
