@@ -125,6 +125,7 @@ a {
 
 @media (max-width: 576px) {
     h1 {
-       font-size: 25px;
+    width: 338px;
+    font-size: 28px;
     }
 }
