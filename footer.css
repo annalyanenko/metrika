@@ -1,10 +1,11 @@
 footer {
+    width: 100%;
     padding: 60px 0 30px 0;
     background-color: #121212;
 }
 
 .footer__nav {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
@@ -63,3 +64,10 @@ footer {
     line-height: 18px;
 }
 }
+
+@media (max-width: 576px) {
+    .footer__nav-link {
+        padding: 0;
+    }
+}
+
