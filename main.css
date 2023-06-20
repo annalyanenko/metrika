@@ -121,5 +121,10 @@ a {
     font-size: 18px;
     line-height: 25px;
 } 
+}
 
+@media (max-width: 576px) {
+    h1 {
+       font-size: 25px;
+    }
 }
