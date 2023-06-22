@@ -20,10 +20,20 @@
                 <img class="header__logo" src="resources/logo_metrika.png">
             </a> 
                 <nav class="header__menu">
-                    <a class="header__nav-link" href="#about">О НАС</a>
-                    <a class="header__nav-link" href="#projects">ПРОЕКТЫ</a>
-                    <a class="header__nav-link" href="#services">УСЛУГИ</a>
-                    <a class="header__nav-link" href="#contacts">КОНТАКТЫ</a>
+                    <ul class="header__menu-link">
+                        <li>
+                            <a class="header__nav-link" href="#about">О НАС</a>
+                        </li>
+                        <li>
+                            <a class="header__nav-link" href="#projects">ПРОЕКТЫ</a>
+                        </li>
+                        <li>
+                            <a class="header__nav-link" href="#services">УСЛУГИ</a>
+                        </li>
+                        <li>
+                            <a class="header__nav-link" href="#contacts">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
                 </nav>
                 <div class="js-burger-btn burger-btn"></div>
             </div>   
@@ -31,7 +41,7 @@
     </header>
 
     <div class="js-burger burger">
-        <div class="js-burger__content burger__content">
+        <div class="burger__content">
             <img class="burger__logo" 
             src="resources/logo-burger.png" 
             alt="Логотип компании Метрика">
@@ -51,7 +61,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="burger__contacts">
+            <div class="burger__contacts js-burger__content">
                 <div class="burger__contacts_title">для связи:</div>
                 <a class="burger__contacts_phone" href="tel:+79358954535">+7 935  895-45-35</a>
                 <div class="burger__contacts_Tgm">
@@ -77,7 +87,7 @@
                     К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные
                     решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.
                     </p>
-                <a class="about-us__button" href="#">Посмотреть услуги</a>
+                <a class="about-us__button" href="#services">Посмотреть услуги</a>
             </section>
         <section id="projects">
             <ul>
@@ -118,10 +128,10 @@
                         src="resources/lakes.jpg" 
                         alt="Кухня-гостиная со стеклянной перегородкой">
                     </picture>
-                    <a class="project__information" href="#">Подробнее →</a>
+                    <a class="project__information" href="">Подробнее →</a>
                 </li>
             </ul>
-            <a class="btn-all__projects" href="#">Смотреть все проекты</a>
+            <a class="btn-all__projects" href="#projects">Смотреть все проекты</a>
         </div>
         </section>
            <section id="services" class="section-black">
@@ -192,9 +202,21 @@
                     <p class="popup__title">Заказать услугу</p>
                     <p class="popup__txt">Заполните форму, мы свяжемся с вами в течение суток</p>
                     <form> 
-                        <input class="input" type="text"placeholder="Имя">
-                        <input class="input" type="text"placeholder="Электронная почта">
-                        <input class="input" type="text"placeholder="Номер телефона">
+                        <input 
+                        class="input" 
+                        type="text"
+                        name="name" 
+                        placeholder="Имя">
+                        <input 
+                        class="input" 
+                        type="email" 
+                        name="email" 
+                        placeholder="Электронная почта">
+                        <input 
+                        class="input"
+                         type="tel" 
+                         name="tel" 
+                         placeholder="Номер телефона">
                     </form>  
                     <button class="full-width-btn-small">Отправить</button>
                 </div>
