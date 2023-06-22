@@ -3,11 +3,6 @@ header {
     padding-top: 33px;
 }
 
-nav {
-    display: flex;
-    gap: 60px;
-} 
-
 .header__top {
     position: relative;
     display: flex;
