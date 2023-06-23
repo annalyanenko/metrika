@@ -18,7 +18,6 @@ header {
 .header__menu-link {
     display: flex;
     gap: 60px;
-    height: 21px;
 }
 
 .header__nav-link {
@@ -27,6 +26,7 @@ header {
     line-height: 25px;
     text-decoration: none;
     transition: 0.5s;
+    border-bottom: 1px solid #FFFFFF;
     color: #121212
 }
 
