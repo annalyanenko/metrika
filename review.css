@@ -58,6 +58,11 @@
     width: 100%;
 }
 
+.review:last-child {
+    width: 100%;
+
+}
+
 .review__title {
     margin-bottom: 22px;
     font-size: 25px;
