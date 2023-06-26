@@ -52,6 +52,12 @@
     opacity: 0.5;
 }
 
+.contacts__phone,
+.contacts__email {
+    border-bottom: 2px solid #FFFFFF;
+
+}
+
 @media (max-width: 1199px) {
 
 .section-contacts {
