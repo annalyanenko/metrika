@@ -75,6 +75,7 @@
 .gallery__control-prev:hover,
 .gallery__control-next:hover {
     opacity: 0.5;
+    transition: 0.5s;
 }
 
 .gallery__control-prev {
