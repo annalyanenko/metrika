@@ -72,6 +72,13 @@
     background: none;
 }
 
+.gallery__control-prev:hover,
+.gallery__control-next:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+
+}
+
 .gallery__control-prev {
     background-image: url(resources/arrow-left.png);
     
@@ -80,7 +87,6 @@
 .gallery__control-next {
     background-image: url(resources/arrow-left.png);
     transform: rotate(180deg);
-    opacity: 0.5;
 }
 
 @media (max-width: 1199px) {
